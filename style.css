@@ -1,0 +1,61 @@
+#Loder1{
+  width: 100px;
+  height: 100px;
+  border-style: dotted;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color:darkgreen ;
+  position:absolute;
+  top:300px;
+  left:401px;
+  animation-name: loder1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes loder1{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Loder2{
+  width: 75px;
+  height: 75px;
+  border-style: dotted;
+  border-width: 10px;
+  border-radius: 50%;
+  position:absolute;
+  top:313px;
+  left:414px;
+  border-color:white;
+ 
+}
+#Loder3{
+  width: 50px;
+  height: 50px;
+  border-style: dotted;
+  border-width: 10px;
+  border-radius: 50%;
+  position:absolute;
+  top:326px;
+  left:427px;
+  border-color: darkorange;
+  animation-name: loder3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes loder3{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform:rotate(-360deg);
+  }
+}
+body{
+  background-color: #02024b;
+}
